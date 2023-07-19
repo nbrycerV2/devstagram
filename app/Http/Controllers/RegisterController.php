@@ -16,7 +16,6 @@ class RegisterController extends Controller
         //dd($request->get('name')); //verifico si llega la variaple por el ppost
         $this->validate($request,[
             'name' =>'required|min:5',
-
         ]);
     }
 
